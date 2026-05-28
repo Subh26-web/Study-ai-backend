@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+# 🚨 CRITICAL: This keeps gigabytes of third-party code from bloating your repository
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Output directory used by TypeScript compiler
+dist/
+build/
+
+# Environment Variables & Private Key Tokens
+# 🚨 CRITICAL: Prevents exposing your GEMINI_API_KEY, JWT_SECRET, or Database URIs to the public
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor & IDE specific configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
