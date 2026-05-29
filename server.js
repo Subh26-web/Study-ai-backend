@@ -12,7 +12,7 @@ const app = express();
 
 // 1. CORS UPDATE: Matched to the Live Server port (5500) visible in your screenshot
 app.use(cors({
-    origin: ['http://127.0.0.1:5500', 'http://localhost:5500'],
+    origin: ['https://studygeniussai.netlify.app'],
     credentials: true
 }));
 
